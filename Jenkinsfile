@@ -33,14 +33,14 @@ pipeline {
         stage('Install Python Dependencies') {
             steps {
                 echo "Installing Python dependencies..."
-                sh 'pip3 install -r requirements.txt'
+                sh 'pip3 install --user -r requirements.txt'
             }
         }
 
         stage('Run Unit Tests') {
             steps {
                 echo "Running unit tests..."
-                sh 'pytest'
+                sh 'export PATH=$PATH:$HOME/.local/bin && pytest'
             }
         }
 
