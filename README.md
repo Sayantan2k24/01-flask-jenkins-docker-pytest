@@ -2,7 +2,7 @@
 
 # 🚀 Flask AutoDeployer – CI/CD with Jenkins & Docker
 
-This project demonstrates a **fully automated CI/CD pipeline** for a Flask application using **Jenkins**, **Docker**, and **Pytest**.
+This project demonstrates a **fully automated CI/CD pipeline** for a **Flask application** using **Jenkins**, **Docker**, and **Pytest** on **AWS EC2 Instance**
 
 ---
 
